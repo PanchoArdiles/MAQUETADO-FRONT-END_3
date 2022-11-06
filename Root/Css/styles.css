@@ -1,0 +1,92 @@
+header {
+    background-color: black;
+    color: rgb(237, 237, 245);
+    text-align: center;
+}
+.logo img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  filter: drop-shadow(5px 3px 5px #000);
+}
+
+      img.mediana {
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+  border: 1px solid #000;
+  filter: drop-shadow(5px 3px 5px #000);
+      }
+
+      h3 {
+        background-color: rgb(213, 207, 207);
+        text-color:white
+        font-size:20px;
+      }
+
+      
+
+.fot {
+  background-color: rgb(12, 1, 1);
+  color: #fff;
+  text-align: center;
+  }
+
+  .fa {
+    text-color: rgb(235, 241, 241);
+    
+  }
+
+    .telefono {
+  font-size: 25px;
+background-color:black;
+color: antiquewhite;
+transition: all 0.5s linear;
+
+
+
+}    
+.fa-facebook {
+  color: #3b5998;
+  font-size: 32px;
+}
+.fa-instagram {
+  color: #b049eb;
+  font-size: 32px;
+  
+}
+.fa-linkedin {
+  color: #0e76a8;
+  font-size: 32px;
+}
+.recolor {
+  display: inline-block;
+  position: relative;
+  background: #8a3ab9;
+  border: 10px solid #8a3ab9;
+}
+.recolor img {
+  display: block;
+  mix-blend-mode: lighten;
+  filter: grayscale(100%);
+}
+.recolor:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgb(80, 41, 210), rgba(40%, 20%, 60%, 50%));
+  mix-blend-mode:lighten;
+}
+.fa-spin {
+  color:aqua
+}
+.fa-spin-reverse {
+  color:red
+}
+.telefono:hover {
+  font-size: 60px;
+  transform: translatey(-50px);
+}
